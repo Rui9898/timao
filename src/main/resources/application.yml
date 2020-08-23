@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/mydb5?serverTimezone=UTC
+    username: root
+    password: 980419
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-enums-package: com.lr.enums
+server:
+  port: 8585
